@@ -4,10 +4,10 @@
 # state updates from the S1+ device. No additional hardware required.
 #
 # State mapping (confirmed from FlowQ JS bundle + live API data):
-#   "loaded"   → filament present, ready (yellow indicator)
-#   "active"   → filament feeding actively (green indicator)
-#   "sleep"    → slot sleeping, filament present (blue indicator)
-#   "unloaded" → no filament / runout (red indicator)
+#   "loaded"   → filament present, ready (green indicator)
+#   "active"   → filament feeding actively (green indicator, S1+ LED: green)
+#   "sleep"    → slot sleeping, filament present (blue indicator, S1+ LED: blue)
+#   "unloaded" → no filament / runout (red indicator, S1+ LED: red)
 #   anything else → treated as runout
 #
 # Configuration in moonraker.conf:
@@ -76,10 +76,10 @@ _STATE_LABEL = {
     "unloaded": "Empty",
 }
 _STATE_COLOR = {
-    "loaded":   "#4CAF50",
-    "active":   "#8BC34A",
-    "sleep":    "#2196F3",
-    "unloaded": "#F44336",
+    "loaded":   "#4CAF50",   # green
+    "active":   "#4CAF50",   # green  (S1+ LED: green when feeding)
+    "sleep":    "#2196F3",   # blue   (S1+ LED: blue when standby)
+    "unloaded": "#F44336",   # red    (S1+ LED: red when empty)
 }
 
 _SETUP_HTML = """\

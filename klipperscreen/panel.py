@@ -12,11 +12,12 @@ from ks_includes.screen_panel import ScreenPanel
 logger = logging.getLogger("klipperscreen")
 
 # raw_state → (display_label, card_bg, fg_text, dot_color)
+# Colors match S1+ physical LED: active=green, sleep=blue, unloaded=red
 _STATE = {
-    "loaded":   ("Ready",   "#C5E1A5", "#1B5E20", "#388E3C"),
-    "active":   ("Feeding", "#80DEEA", "#006064", "#00838F"),
-    "sleep":    ("Standby", "#FFF59D", "#7F3B00", "#E65100"),
-    "unloaded": ("Empty",   "#F48FB1", "#880E4F", "#C62828"),
+    "loaded":   ("Ready",   "#C8E6C9", "#2E7D32", "#388E3C"),
+    "active":   ("Feeding", "#A5D6A7", "#1B5E20", "#4CAF50"),
+    "sleep":    ("Standby", "#BBDEFB", "#1565C0", "#2196F3"),
+    "unloaded": ("Empty",   "#FFCDD2", "#C62828", "#F44336"),
 }
 _UNKNOWN = ("—", "#ECEFF1", "#546E7A", "#78909C")
 
