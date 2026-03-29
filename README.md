@@ -103,7 +103,7 @@ After restart, two filament sensors appear automatically in Fluidd and Mainsail:
 - **infinity_flow_a** — Slot A
 - **infinity_flow_b** — Slot B
 
-In KlipperScreen: **More → Infinity Flow** — shows live sensor state and a QR code to open the setup page on your phone.
+In KlipperScreen: tap **Infinity Flow** from the main menu — shows live slot status (color-coded to match the S1+ LEDs: green=feeding, blue=standby, red=empty).
 
 ---
 
@@ -185,7 +185,7 @@ sudo systemctl restart moonraker
 → Make sure your printer can reach the internet (test: `ping api.infinityflow3d.com`)
 
 **KlipperScreen panel not visible**
-→ Make sure `[menu __main More infinity_flow]` is in `KlipperScreen.conf`
+→ Make sure `[menu __main infinity_flow]` is in `KlipperScreen.conf`
 → Restart KlipperScreen: `sudo systemctl restart KlipperScreen`
 
 **Login fails in flowq_setup_token.py**
