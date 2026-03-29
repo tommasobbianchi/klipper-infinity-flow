@@ -178,7 +178,7 @@ _SETUP_HTML = """\
       <div class="step-title">Install the integration</div>
       <div class="copy-wrap">
         <button class="copy-btn" onclick="cp('s1')">Copy</button>
-        <pre id="s1">cd ~ && git clone https://github.com/tommaso-bianchi/klipper-infinity-flow
+        <pre id="s1">cd ~ && git clone https://github.com/tommasobbianchi/klipper-infinity-flow
 cd klipper-infinity-flow && ./install.sh</pre>
       </div>
     </li>

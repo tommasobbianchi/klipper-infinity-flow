@@ -38,7 +38,7 @@ The integration reads filament state from the FlowQ cloud in real time and mirro
 
 ```bash
 cd ~
-git clone https://github.com/tommaso-bianchi/klipper-infinity-flow
+git clone https://github.com/tommasobbianchi/klipper-infinity-flow
 cd klipper-infinity-flow
 ./install.sh
 ```
