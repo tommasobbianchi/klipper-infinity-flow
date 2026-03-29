@@ -1,0 +1,26 @@
+{
+  "name": "infinity-flow-video",
+  "version": "1.0.0",
+  "description": "Promotional video for klipper-infinity-flow — vertical social media format",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render InfinityFlowVideo out/infinity-flow.mp4",
+    "render": "remotion render InfinityFlowVideo out/infinity-flow.mp4 --codec h264"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.441",
+    "@remotion/cli": "^4.0.441",
+    "@remotion/transitions": "^4.0.441",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.441",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "typescript": "^5.9.3"
+  },
+  "remotion": {
+    "entryPoint": "src/index.ts"
+  }
+}

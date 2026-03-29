@@ -1,0 +1,667 @@
+[
+  {
+    "text": " The",
+    "startMs": 0,
+    "endMs": 400,
+    "timestampMs": 0,
+    "confidence": 0.7150734066963196
+  },
+  {
+    "text": " Infinity",
+    "startMs": 400,
+    "endMs": 720,
+    "timestampMs": 400,
+    "confidence": 0.8814840912818909
+  },
+  {
+    "text": " Flow",
+    "startMs": 720,
+    "endMs": 940,
+    "timestampMs": 720,
+    "confidence": 0.26036617159843445
+  },
+  {
+    "text": " S1",
+    "startMs": 940,
+    "endMs": 1320,
+    "timestampMs": 940,
+    "confidence": 0.8524098992347717
+  },
+  {
+    "text": " Plus",
+    "startMs": 1320,
+    "endMs": 1520,
+    "timestampMs": 1320,
+    "confidence": 0.33183324337005615
+  },
+  {
+    "text": " is",
+    "startMs": 1520,
+    "endMs": 1740,
+    "timestampMs": 1520,
+    "confidence": 0.9951639175415039
+  },
+  {
+    "text": " a",
+    "startMs": 1740,
+    "endMs": 1880,
+    "timestampMs": 1740,
+    "confidence": 0.9968926906585693
+  },
+  {
+    "text": " smart",
+    "startMs": 1880,
+    "endMs": 2120,
+    "timestampMs": 1880,
+    "confidence": 0.805892825126648
+  },
+  {
+    "text": " filament",
+    "startMs": 2120,
+    "endMs": 2440,
+    "timestampMs": 2120,
+    "confidence": 0.9852912425994873
+  },
+  {
+    "text": " reloader,",
+    "startMs": 2440,
+    "endMs": 3440,
+    "timestampMs": 2440,
+    "confidence": 0.8945642411708832
+  },
+  {
+    "text": " but",
+    "startMs": 3760,
+    "endMs": 3900,
+    "timestampMs": 3760,
+    "confidence": 0.9900627732276917
+  },
+  {
+    "text": " on",
+    "startMs": 3900,
+    "endMs": 4120,
+    "timestampMs": 3900,
+    "confidence": 0.9947482943534851
+  },
+  {
+    "text": " clipper",
+    "startMs": 4120,
+    "endMs": 4380,
+    "timestampMs": 4120,
+    "confidence": 0.733513355255127
+  },
+  {
+    "text": " it",
+    "startMs": 4380,
+    "endMs": 4620,
+    "timestampMs": 4380,
+    "confidence": 0.5534618496894836
+  },
+  {
+    "text": " had",
+    "startMs": 4620,
+    "endMs": 4880,
+    "timestampMs": 4620,
+    "confidence": 0.9928043484687805
+  },
+  {
+    "text": " no",
+    "startMs": 4880,
+    "endMs": 5060,
+    "timestampMs": 4880,
+    "confidence": 0.9872289896011353
+  },
+  {
+    "text": " native",
+    "startMs": 5060,
+    "endMs": 5380,
+    "timestampMs": 5060,
+    "confidence": 0.9656236171722412
+  },
+  {
+    "text": " support.",
+    "startMs": 5380,
+    "endMs": 6000,
+    "timestampMs": 5380,
+    "confidence": 0.999536395072937
+  },
+  {
+    "text": " Until",
+    "startMs": 6739,
+    "endMs": 7220,
+    "timestampMs": 6739,
+    "confidence": 0.9747572541236877
+  },
+  {
+    "text": " now,",
+    "startMs": 7220,
+    "endMs": 7700,
+    "timestampMs": 7220,
+    "confidence": 0.9913382530212402
+  },
+  {
+    "text": " we",
+    "startMs": 8200,
+    "endMs": 8420,
+    "timestampMs": 8200,
+    "confidence": 0.9581894874572754
+  },
+  {
+    "text": " built",
+    "startMs": 8420,
+    "endMs": 8620,
+    "timestampMs": 8420,
+    "confidence": 0.9635430574417114
+  },
+  {
+    "text": " a",
+    "startMs": 8620,
+    "endMs": 8840,
+    "timestampMs": 8620,
+    "confidence": 0.9978694915771484
+  },
+  {
+    "text": " bridge.",
+    "startMs": 8840,
+    "endMs": 9120,
+    "timestampMs": 8840,
+    "confidence": 0.9749612808227539
+  },
+  {
+    "text": " A",
+    "startMs": 9940,
+    "endMs": 10080,
+    "timestampMs": 9940,
+    "confidence": 0.9811980128288269
+  },
+  {
+    "text": " moonbreaker",
+    "startMs": 10080,
+    "endMs": 10480,
+    "timestampMs": 10080,
+    "confidence": 0.47157733142375946
+  },
+  {
+    "text": " component",
+    "startMs": 10480,
+    "endMs": 10900,
+    "timestampMs": 10480,
+    "confidence": 0.9986353516578674
+  },
+  {
+    "text": " connects",
+    "startMs": 10900,
+    "endMs": 11200,
+    "timestampMs": 10900,
+    "confidence": 0.995519757270813
+  },
+  {
+    "text": " to",
+    "startMs": 11200,
+    "endMs": 11420,
+    "timestampMs": 11200,
+    "confidence": 0.9986568689346313
+  },
+  {
+    "text": " the",
+    "startMs": 11420,
+    "endMs": 11560,
+    "timestampMs": 11420,
+    "confidence": 0.997379720211029
+  },
+  {
+    "text": " flow",
+    "startMs": 11560,
+    "endMs": 11680,
+    "timestampMs": 11560,
+    "confidence": 0.6113809943199158
+  },
+  {
+    "text": "-cue",
+    "startMs": 11680,
+    "endMs": 11840,
+    "timestampMs": 11680,
+    "confidence": 0.3167518377304077
+  },
+  {
+    "text": " cloud",
+    "startMs": 11840,
+    "endMs": 12060,
+    "timestampMs": 11840,
+    "confidence": 0.9615859985351562
+  },
+  {
+    "text": " in",
+    "startMs": 12060,
+    "endMs": 12240,
+    "timestampMs": 12060,
+    "confidence": 0.41066262125968933
+  },
+  {
+    "text": " feeds",
+    "startMs": 12240,
+    "endMs": 12480,
+    "timestampMs": 12240,
+    "confidence": 0.6768134236335754
+  },
+  {
+    "text": " real",
+    "startMs": 12480,
+    "endMs": 12760,
+    "timestampMs": 12480,
+    "confidence": 0.9308905005455017
+  },
+  {
+    "text": "-time",
+    "startMs": 12760,
+    "endMs": 13000,
+    "timestampMs": 12760,
+    "confidence": 0.910529762506485
+  },
+  {
+    "text": " filament",
+    "startMs": 13000,
+    "endMs": 13300,
+    "timestampMs": 13000,
+    "confidence": 0.9759523272514343
+  },
+  {
+    "text": " state",
+    "startMs": 13300,
+    "endMs": 13640,
+    "timestampMs": 13300,
+    "confidence": 0.9769521951675415
+  },
+  {
+    "text": " directly",
+    "startMs": 13640,
+    "endMs": 14000,
+    "timestampMs": 13640,
+    "confidence": 0.9985501170158386
+  },
+  {
+    "text": " into",
+    "startMs": 14000,
+    "endMs": 14220,
+    "timestampMs": 14000,
+    "confidence": 0.9978392720222473
+  },
+  {
+    "text": " clipper.",
+    "startMs": 14220,
+    "endMs": 14820,
+    "timestampMs": 14220,
+    "confidence": 0.9691490530967712
+  },
+  {
+    "text": " Virtual",
+    "startMs": 15480,
+    "endMs": 15640,
+    "timestampMs": 15480,
+    "confidence": 0.9466161131858826
+  },
+  {
+    "text": " sensors",
+    "startMs": 15640,
+    "endMs": 16059,
+    "timestampMs": 15640,
+    "confidence": 0.9785464406013489
+  },
+  {
+    "text": " appear",
+    "startMs": 16059,
+    "endMs": 16379,
+    "timestampMs": 16059,
+    "confidence": 0.998525083065033
+  },
+  {
+    "text": " in",
+    "startMs": 16379,
+    "endMs": 16580,
+    "timestampMs": 16379,
+    "confidence": 0.6186462640762329
+  },
+  {
+    "text": " fluid",
+    "startMs": 16580,
+    "endMs": 16760,
+    "timestampMs": 16580,
+    "confidence": 0.9785182476043701
+  },
+  {
+    "text": " and",
+    "startMs": 16760,
+    "endMs": 16980,
+    "timestampMs": 16760,
+    "confidence": 0.9413238167762756
+  },
+  {
+    "text": " main",
+    "startMs": 16980,
+    "endMs": 17160,
+    "timestampMs": 16980,
+    "confidence": 0.38548246026039124
+  },
+  {
+    "text": " sail,",
+    "startMs": 17160,
+    "endMs": 17400,
+    "timestampMs": 17160,
+    "confidence": 0.416120320558548
+  },
+  {
+    "text": " no",
+    "startMs": 17540,
+    "endMs": 17760,
+    "timestampMs": 17540,
+    "confidence": 0.9884034991264343
+  },
+  {
+    "text": " dummy",
+    "startMs": 17760,
+    "endMs": 17940,
+    "timestampMs": 17760,
+    "confidence": 0.9766594171524048
+  },
+  {
+    "text": " pins,",
+    "startMs": 17940,
+    "endMs": 18240,
+    "timestampMs": 17940,
+    "confidence": 0.9877166152000427
+  },
+  {
+    "text": " no",
+    "startMs": 18500,
+    "endMs": 18740,
+    "timestampMs": 18500,
+    "confidence": 0.9940996170043945
+  },
+  {
+    "text": " extra",
+    "startMs": 18740,
+    "endMs": 18900,
+    "timestampMs": 18740,
+    "confidence": 0.9942612648010254
+  },
+  {
+    "text": " config.",
+    "startMs": 18900,
+    "endMs": 19240,
+    "timestampMs": 18900,
+    "confidence": 0.897506833076477
+  },
+  {
+    "text": " When",
+    "startMs": 20160,
+    "endMs": 20280,
+    "timestampMs": 20160,
+    "confidence": 0.9952326416969299
+  },
+  {
+    "text": " a",
+    "startMs": 20280,
+    "endMs": 20440,
+    "timestampMs": 20280,
+    "confidence": 0.9978027939796448
+  },
+  {
+    "text": " slot",
+    "startMs": 20440,
+    "endMs": 20620,
+    "timestampMs": 20440,
+    "confidence": 0.991949200630188
+  },
+  {
+    "text": " runs",
+    "startMs": 20620,
+    "endMs": 20860,
+    "timestampMs": 20620,
+    "confidence": 0.9930907487869263
+  },
+  {
+    "text": " empty,",
+    "startMs": 20860,
+    "endMs": 21100,
+    "timestampMs": 20860,
+    "confidence": 0.9767449498176575
+  },
+  {
+    "text": " the",
+    "startMs": 21340,
+    "endMs": 21520,
+    "timestampMs": 21340,
+    "confidence": 0.996322751045227
+  },
+  {
+    "text": " printer",
+    "startMs": 21520,
+    "endMs": 21700,
+    "timestampMs": 21520,
+    "confidence": 0.9986017346382141
+  },
+  {
+    "text": " pauses",
+    "startMs": 21700,
+    "endMs": 22040,
+    "timestampMs": 21700,
+    "confidence": 0.9943617582321167
+  },
+  {
+    "text": " and",
+    "startMs": 22040,
+    "endMs": 22320,
+    "timestampMs": 22040,
+    "confidence": 0.9954237341880798
+  },
+  {
+    "text": " swaps",
+    "startMs": 22320,
+    "endMs": 22560,
+    "timestampMs": 22320,
+    "confidence": 0.9488614797592163
+  },
+  {
+    "text": " automatically.",
+    "startMs": 22560,
+    "endMs": 23120,
+    "timestampMs": 22560,
+    "confidence": 0.9906355738639832
+  },
+  {
+    "text": " Three",
+    "startMs": 24140,
+    "endMs": 24380,
+    "timestampMs": 24140,
+    "confidence": 0.900862991809845
+  },
+  {
+    "text": " steps",
+    "startMs": 24380,
+    "endMs": 24540,
+    "timestampMs": 24380,
+    "confidence": 0.9979857206344604
+  },
+  {
+    "text": " to",
+    "startMs": 24540,
+    "endMs": 24780,
+    "timestampMs": 24540,
+    "confidence": 0.9991357922554016
+  },
+  {
+    "text": " set",
+    "startMs": 24780,
+    "endMs": 24880,
+    "timestampMs": 24780,
+    "confidence": 0.7713086605072021
+  },
+  {
+    "text": " up,",
+    "startMs": 24880,
+    "endMs": 25300,
+    "timestampMs": 24880,
+    "confidence": 0.9612948894500732
+  },
+  {
+    "text": " clone,",
+    "startMs": 25300,
+    "endMs": 25580,
+    "timestampMs": 25300,
+    "confidence": 0.839751124382019
+  },
+  {
+    "text": " get",
+    "startMs": 25760,
+    "endMs": 25940,
+    "timestampMs": 25760,
+    "confidence": 0.9583491086959839
+  },
+  {
+    "text": " your",
+    "startMs": 25940,
+    "endMs": 26120,
+    "timestampMs": 25940,
+    "confidence": 0.9933475852012634
+  },
+  {
+    "text": " token,",
+    "startMs": 26120,
+    "endMs": 26540,
+    "timestampMs": 26120,
+    "confidence": 0.9882245063781738
+  },
+  {
+    "text": " restart.",
+    "startMs": 26720,
+    "endMs": 26940,
+    "timestampMs": 26720,
+    "confidence": 0.9901295304298401
+  },
+  {
+    "text": " No",
+    "startMs": 27920,
+    "endMs": 28180,
+    "timestampMs": 27920,
+    "confidence": 0.960182249546051
+  },
+  {
+    "text": " hardware",
+    "startMs": 28180,
+    "endMs": 28500,
+    "timestampMs": 28180,
+    "confidence": 0.9927318692207336
+  },
+  {
+    "text": " modifications",
+    "startMs": 28500,
+    "endMs": 29060,
+    "timestampMs": 28500,
+    "confidence": 0.9941244721412659
+  },
+  {
+    "text": " needed.",
+    "startMs": 29060,
+    "endMs": 29600,
+    "timestampMs": 29060,
+    "confidence": 0.08399052172899246
+  },
+  {
+    "text": " Open",
+    "startMs": 30460,
+    "endMs": 30720,
+    "timestampMs": 30460,
+    "confidence": 0.9322876930236816
+  },
+  {
+    "text": " source.",
+    "startMs": 30720,
+    "endMs": 31360,
+    "timestampMs": 30720,
+    "confidence": 0.513184130191803
+  },
+  {
+    "text": " Free",
+    "startMs": 32119,
+    "endMs": 32340,
+    "timestampMs": 32119,
+    "confidence": 0.8943246603012085
+  },
+  {
+    "text": " forever.",
+    "startMs": 32340,
+    "endMs": 32840,
+    "timestampMs": 32340,
+    "confidence": 0.8207168579101562
+  },
+  {
+    "text": " Find",
+    "startMs": 33760,
+    "endMs": 33860,
+    "timestampMs": 33760,
+    "confidence": 0.9728882312774658
+  },
+  {
+    "text": " it",
+    "startMs": 33860,
+    "endMs": 33980,
+    "timestampMs": 33860,
+    "confidence": 0.9962922930717468
+  },
+  {
+    "text": " on",
+    "startMs": 33980,
+    "endMs": 34180,
+    "timestampMs": 33980,
+    "confidence": 0.9984639883041382
+  },
+  {
+    "text": " GitHub,",
+    "startMs": 34180,
+    "endMs": 34400,
+    "timestampMs": 34180,
+    "confidence": 0.6742392182350159
+  },
+  {
+    "text": " native",
+    "startMs": 34640,
+    "endMs": 34860,
+    "timestampMs": 34640,
+    "confidence": 0.82249915599823
+  },
+  {
+    "text": " research",
+    "startMs": 34860,
+    "endMs": 35180,
+    "timestampMs": 34860,
+    "confidence": 0.5275976657867432
+  },
+  {
+    "text": " slash",
+    "startMs": 35180,
+    "endMs": 35560,
+    "timestampMs": 35180,
+    "confidence": 0.34238964319229126
+  },
+  {
+    "text": " clipper",
+    "startMs": 35560,
+    "endMs": 35800,
+    "timestampMs": 35560,
+    "confidence": 0.6777342110872269
+  },
+  {
+    "text": " infinity",
+    "startMs": 35800,
+    "endMs": 36160,
+    "timestampMs": 35800,
+    "confidence": 0.7521740794181824
+  },
+  {
+    "text": " flow.",
+    "startMs": 36160,
+    "endMs": 36540,
+    "timestampMs": 36160,
+    "confidence": 0.9183599948883057
+  }
+]
