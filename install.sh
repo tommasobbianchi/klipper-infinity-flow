@@ -80,25 +80,22 @@ install() {
            "$KLIPPERSCREEN_DIR/panels/infinity_flow.py"
         info "  $KLIPPERSCREEN_DIR/panels/infinity_flow.py"
 
-        # qrcode library for QR display in panel
-        _pip_install "qrcode[pil]"
-
         # Add menu entry to KlipperScreen.conf if not already present
         KS_CONF="${PRINTER_DATA_DIR:-$HOME/printer_data}/config/KlipperScreen.conf"
         if [ -f "$KS_CONF" ]; then
             if ! grep -q "infinity_flow" "$KS_CONF" 2>/dev/null; then
                 echo "" >> "$KS_CONF"
-                echo "[menu __main More infinity_flow]" >> "$KS_CONF"
+                echo "[menu __main infinity_flow]" >> "$KS_CONF"
                 echo "name: Infinity Flow" >> "$KS_CONF"
                 echo "icon: filament" >> "$KS_CONF"
                 echo "panel: infinity_flow" >> "$KS_CONF"
-                info "  Added 'Infinity Flow' to KlipperScreen menu"
+                info "  Added 'Infinity Flow' to KlipperScreen main menu"
             else
                 info "  KlipperScreen menu entry already present"
             fi
         else
             warn "  KlipperScreen.conf not found — add menu entry manually:"
-            echo "    [menu __main More infinity_flow]"
+            echo "    [menu __main infinity_flow]"
             echo "    name: Infinity Flow"
             echo "    icon: filament"
             echo "    panel: infinity_flow"
@@ -136,8 +133,8 @@ install() {
     echo "  4. Restart services:"
     echo "       sudo systemctl restart moonraker klipper"
     echo ""
-    echo "  5. Scan the QR code from KlipperScreen → More → Infinity Flow"
-    echo "     to open the setup page on your phone."
+    echo "  5. Open KlipperScreen → Infinity Flow (main menu)"
+    echo "     to monitor filament slot status."
     echo ""
 }
 
