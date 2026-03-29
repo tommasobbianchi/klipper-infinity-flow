@@ -49,35 +49,30 @@ The installer copies the Klipper module and Moonraker component, installs Python
 
 ## Setup
 
-### 1. Get your FlowQ token
+After `install.sh` completes, run the interactive configurator:
 
 ```bash
-python3 ~/klipper-infinity-flow/flowq_setup_token.py
+python3 ~/klipper-infinity-flow/configure.py
 ```
 
-This logs in with your FlowQ account and outputs the token to paste in the next step. If your account uses Google sign-in, see the alternative method below.
+It will:
+1. Auto-detect `printer.cfg` and `moonraker.conf`
+2. Get your FlowQ token (login or paste from browser)
+3. Ask for extruder name, pause mode, and grace period
+4. Write both config files
+5. Restart moonraker and klipper
 
 <details>
-<summary>Alternative: extract token from browser</summary>
+<summary>Manual setup (advanced)</summary>
 
-1. Open **flowq.infinityflow3d.com** and log in
-2. Press `F12` → Application tab → Local Storage → `https://flowq.infinityflow3d.com`
-3. Find `refresh_token` and copy its value
-
-</details>
-
-### 2. Add to `moonraker.conf`
-
+**moonraker.conf:**
 ```ini
 [infinity_flow]
 refresh_token: YOUR_TOKEN_HERE
-# s1plus_id is auto-detected — only needed if you have multiple S1+ devices
 ```
+Get your token: `python3 ~/klipper-infinity-flow/flowq_setup_token.py`
 
-### 3. Add to `printer.cfg`
-
-No dummy pins needed. Virtual sensors are registered automatically.
-
+**printer.cfg:**
 ```ini
 [infinity_flow]
 extruder: extruder
@@ -88,11 +83,12 @@ runout_gcode:
     PAUSE
 ```
 
-### 4. Restart
-
+**Restart:**
 ```bash
 sudo systemctl restart moonraker klipper
 ```
+
+</details>
 
 ---
 
